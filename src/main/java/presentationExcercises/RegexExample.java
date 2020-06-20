@@ -2,7 +2,7 @@ package presentationExcercises;
 
 import java.util.regex.Pattern;
 
-public class regexExample {
+public class RegexExample {
 
     public static boolean isIdCorrect(String id) {
         Pattern iDPattern = Pattern.compile("[0-9]{11}");
