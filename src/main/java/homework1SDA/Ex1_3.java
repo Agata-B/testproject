@@ -40,26 +40,26 @@ public class Ex1_3 {
     }
 
     /*
-    3. Napisz funkcję, która dla zadanych dwóch parametrów X i Y obliczy sumę liczb od X do Y
+    3. Napisz funkcję, która dla zadanych dwóch parametrów X i Y
+     obliczy sumę liczb od X do Y
      */
-    public static int add() {
-        int x = 5;
-        int y = 10;
+    public static int addRange(int x, int y) {
         int sum = 0;
-        int tabLenght = (y - x) + 1;
-        int[] fromXtoY = new int[tabLenght];
-        fromXtoY[0] = x;
-        fromXtoY[(tabLenght - 1)] = y;
+//       int tabLenght = (y - x) + 1;
+//        int[] fromXtoY = new int[tabLenght];
+//        fromXtoY[0] = x;
+//        fromXtoY[fromXtoY.length-1] = y;
 
-        if (y < x) {
-            for (int i = 0; i<tabLenght; i++) {
-                sum += fromXtoY[i];
-            }
+//        if (y > x) {
+//            for (int i = 0; i < tabLenght; i++) {
+//                sum += fromXtoY[i];
+//            }
+//        }
+        for (int i = x; i <= y ; i++) {
+            sum += i;
         }
         return sum;
     }
-
-
 
 
     public static void main(String[] args) {
