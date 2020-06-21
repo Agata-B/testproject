@@ -27,6 +27,8 @@ public class Main {
 
         System.out.println("Ex4_6 .6");
         int [] table = {-2, 20, -15, 1, -4};
+        Ex4_6.arrayPrinter(table);
+        System.out.println();
         int [] minusTable = Ex4_6.counterMinusValue(table);
         Ex4_6.arrayPrinter(minusTable);
     }
