@@ -65,7 +65,6 @@ utwórz nową tablicę, do której przepisze tylko te ujemne liczby*/
         }
         System.out.println("Suma liczb ujemnych w tablicy: " + counter);
         System.out.print("Tablica wartości ujemnych z wcześnie utworzonej tablicy: ");
-        arrayPrinter(minus);
         return minus;
     }
 
