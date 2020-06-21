@@ -14,7 +14,7 @@ public class Main {
         System.out.println(ex1_3.itIsAPrimeNumber());
 
         System.out.println("Ex1_3 .3");
-        System.out.println(ex1_3.add());
+        System.out.println(ex1_3.addRange(1,3));
 
         System.out.println("Ex4_6 .4");
         int[] tab = {5, 20, 63};
