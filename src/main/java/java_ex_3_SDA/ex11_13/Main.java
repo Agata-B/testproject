@@ -28,7 +28,7 @@ public class Main {
         SumField sumField = new SumField();
         System.out.println(sumField.returnSumField(fields));
         IsEnoughPaint isEnoughPaint = new IsEnoughPaint();
-        System.out.println("Czy wystarczy farby na pomalowanie figur? opd. " + isEnoughPaint.isEnoughPaint(fields, 50.0));
+        System.out.println("Czy wystarczy farby na pomalowanie figur? opd. " + isEnoughPaint.isEnoughPaint(fields, 61.27433388230814));
 
     }
 }

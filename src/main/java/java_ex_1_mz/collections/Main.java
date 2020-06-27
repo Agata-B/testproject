@@ -3,7 +3,7 @@ package java_ex_1_mz.collections;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Zadanie 1");
+     /*   System.out.println("Zadanie 1");
         Ex1Collections ex1Collections = new Ex1Collections();
         ex1Collections.addNumbers();
         ex1Collections.tableLength();
@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Zadanie 5");
         ex5Collections.getNames();
         System.out.println('\n');
-
+*/
         Ex6Collections ex6Collections = new Ex6Collections();
         System.out.println("Zadanie 6");
         ex6Collections.printRandomQueue();

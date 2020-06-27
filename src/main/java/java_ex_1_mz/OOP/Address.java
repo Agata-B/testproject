@@ -1,5 +1,6 @@
 package java_ex_1_mz.OOP;
 
+
 public class Address {
 
     private String street;

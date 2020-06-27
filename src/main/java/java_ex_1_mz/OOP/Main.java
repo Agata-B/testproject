@@ -36,7 +36,14 @@ public class Main {
         person.introduce();
         System.out.println();
         Address address = new Address("Kolorowa", 8, 2, "Kielce", "Polska");
-        Person person1 = new Person ("Olga", "Boś", 35, address);
+        Person person1 = new Person("Olga", "Boś", 35, address);
         person1.introduceFull();
+
+
+        SportCar sportCar = new SportCar("Audi", "Q3", "Black", 5, new Engine(5, 500, 9));
+        System.out.println(sportCar.toString());
+        sportCar.setRadio("ESKA");
+        System.out.println(sportCar.getRadio());
+        System.out.println(sportCar.makeSound());
     }
 }

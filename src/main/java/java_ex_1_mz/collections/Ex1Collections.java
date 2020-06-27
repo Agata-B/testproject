@@ -30,8 +30,8 @@ public class Ex1Collections {
 
     public void modifiedTable() {
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = (i + 1) * 2;
-
+            //    numbers[i] = (i + 1) * 2;
+            numbers[i] = numbers[i] * 2;
         }
 
 

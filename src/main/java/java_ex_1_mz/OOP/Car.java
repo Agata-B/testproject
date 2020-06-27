@@ -6,11 +6,28 @@ public abstract class Car {
     String model;
     String color;
     int seatsNumber;
-    String engine;
+    Engine engine;
 
     public Car() {
-        seatsNumber = 2;
+        this.seatsNumber = 2;
     }
 
+    public Car(String producer, String model, String color, int seatsNumber, Engine engine) {
+        this.producer = producer;
+        this.model = model;
+        this.color = color;
+        this.seatsNumber = seatsNumber;
+        this.engine = engine;
+    }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "producer='" + producer + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", seatsNumber=" + seatsNumber +
+                ", engine=" + engine +
+                '}';
+    }
 }

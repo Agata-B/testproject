@@ -20,7 +20,7 @@ public class Ex6Collections {
         int numbers = scanner.nextInt();
         Random random = new Random();
         for (int i = 1; i <= numbers; i++) {
-            randomQueue.add(random.nextInt(100));
+            randomQueue.add(random.nextInt(100)+1); // +1 bo przedział był od 0 do 99 a my chcemy do 100
         }
         System.out.println(randomQueue);
     }

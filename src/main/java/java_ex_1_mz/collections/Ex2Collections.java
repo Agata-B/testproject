@@ -15,7 +15,9 @@ public class Ex2Collections {
         numberList.add(2);
         numberList.add(4);
         numberList.add(10);
+        System.out.println("Długość listy "+ numberList.size());
         System.out.println("Pierwszy element na liście: " + numberList.get(0));
-        System.out.println("Ostatni element na liście: " + numberList.get(2));
+        //System.out.println("Ostatni element na liście: " + numberList.get(2));
+        System.out.println("Ostatni element na liście: " + numberList.get(numberList.size()-1));
     }
 }

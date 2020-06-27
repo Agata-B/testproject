@@ -1,13 +1,21 @@
 package java_ex_1_mz.OOP;
 
-import java.time.Period;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
+@AllArgsConstructor
 public class Person {
 
     private String name;
     private String surname;
     private int age;
-    Address address;
+    private Address address;
+
+    public Person() {
+    }
 
     public Person(String name, String surname, int age) {
         this.name = name;
@@ -19,6 +27,7 @@ public class Person {
         this.name = name;
         this.surname = surname;
     }
+    /*
 
     public Person(String name, String surname, int age, Address address) {
         this.name = name;
@@ -27,7 +36,7 @@ public class Person {
         this.address = address;
     }
 
-
+*/
     public void introduce() {
         System.out.println("Imię: " + name + " Nazwisko: " + surname);
     }
@@ -36,7 +45,7 @@ public class Person {
         System.out.println("Imię: " + name + " Nazwisko: " + surname + '\n'  + address);
     }
 
-    public String getName() {
+   /* public String getName() {
         return name;
     }
 
@@ -59,4 +68,7 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+    */
+
+
 }
